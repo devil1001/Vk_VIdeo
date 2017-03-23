@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180B52E31E8144E500C35A87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B52E21E8144E500C35A87 /* main.m */; };
+		180B52E61E8144E500C35A87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B52E51E8144E500C35A87 /* AppDelegate.m */; };
+		180B52E91E8144E500C35A87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B52E81E8144E500C35A87 /* ViewController.m */; };
+		180B52EC1E8144E500C35A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180B52EA1E8144E500C35A87 /* Main.storyboard */; };
+		180B52EE1E8144E500C35A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180B52ED1E8144E500C35A87 /* Assets.xcassets */; };
+		180B52F11E8144E500C35A87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180B52EF1E8144E500C35A87 /* LaunchScreen.storyboard */; };
+		180B52FB1E8148B900C35A87 /* TableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B52FA1E8148B900C35A87 /* TableVC.m */; };
+		26192D81F613AF0A02C8C072 /* libPods-Vk_Video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B393F10EFA5E0AC544B68F6D /* libPods-Vk_Video.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09A5A07E4132967F2B33CEB7 /* Pods-Vk_Video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vk_Video.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vk_Video/Pods-Vk_Video.release.xcconfig"; sourceTree = "<group>"; };
+		180B52DE1E8144E500C35A87 /* Vk_Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vk_Video.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180B52E21E8144E500C35A87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180B52E41E8144E500C35A87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180B52E51E8144E500C35A87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180B52E71E8144E500C35A87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180B52E81E8144E500C35A87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		180B52EB1E8144E500C35A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180B52ED1E8144E500C35A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180B52F01E8144E500C35A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180B52F21E8144E500C35A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180B52F91E8148B900C35A87 /* TableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableVC.h; sourceTree = "<group>"; };
+		180B52FA1E8148B900C35A87 /* TableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableVC.m; sourceTree = "<group>"; };
+		2B7E6C6733D977A6D6D9C92A /* Pods-Vk_Video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vk_Video.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vk_Video/Pods-Vk_Video.debug.xcconfig"; sourceTree = "<group>"; };
+		B393F10EFA5E0AC544B68F6D /* libPods-Vk_Video.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vk_Video.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180B52DB1E8144E500C35A87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26192D81F613AF0A02C8C072 /* libPods-Vk_Video.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180B52D51E8144E500C35A87 = {
+			isa = PBXGroup;
+			children = (
+				180B52E01E8144E500C35A87 /* Vk_Video */,
+				180B52DF1E8144E500C35A87 /* Products */,
+				9A85F18588BDB17542847AD7 /* Pods */,
+				1E52FB03D0765CAD3EBB07CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		180B52DF1E8144E500C35A87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180B52DE1E8144E500C35A87 /* Vk_Video.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180B52E01E8144E500C35A87 /* Vk_Video */ = {
+			isa = PBXGroup;
+			children = (
+				180B52F81E81486C00C35A87 /* VkView */,
+				180B52E41E8144E500C35A87 /* AppDelegate.h */,
+				180B52E51E8144E500C35A87 /* AppDelegate.m */,
+				180B52E71E8144E500C35A87 /* ViewController.h */,
+				180B52E81E8144E500C35A87 /* ViewController.m */,
+				180B52EA1E8144E500C35A87 /* Main.storyboard */,
+				180B52ED1E8144E500C35A87 /* Assets.xcassets */,
+				180B52EF1E8144E500C35A87 /* LaunchScreen.storyboard */,
+				180B52F21E8144E500C35A87 /* Info.plist */,
+				180B52E11E8144E500C35A87 /* Supporting Files */,
+			);
+			path = Vk_Video;
+			sourceTree = "<group>";
+		};
+		180B52E11E8144E500C35A87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180B52E21E8144E500C35A87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180B52F81E81486C00C35A87 /* VkView */ = {
+			isa = PBXGroup;
+			children = (
+				180B52F91E8148B900C35A87 /* TableVC.h */,
+				180B52FA1E8148B900C35A87 /* TableVC.m */,
+			);
+			path = VkView;
+			sourceTree = "<group>";
+		};
+		1E52FB03D0765CAD3EBB07CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B393F10EFA5E0AC544B68F6D /* libPods-Vk_Video.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A85F18588BDB17542847AD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E6C6733D977A6D6D9C92A /* Pods-Vk_Video.debug.xcconfig */,
+				09A5A07E4132967F2B33CEB7 /* Pods-Vk_Video.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180B52DD1E8144E500C35A87 /* Vk_Video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180B52F51E8144E500C35A87 /* Build configuration list for PBXNativeTarget "Vk_Video" */;
+			buildPhases = (
+				74DEC2CA3864AFB383C2944E /* [CP] Check Pods Manifest.lock */,
+				180B52DA1E8144E500C35A87 /* Sources */,
+				180B52DB1E8144E500C35A87 /* Frameworks */,
+				180B52DC1E8144E500C35A87 /* Resources */,
+				5B693524DCA595C9955C6969 /* [CP] Embed Pods Frameworks */,
+				C9FECD568F787AF7C03E7C4A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vk_Video;
+			productName = Vk_Video;
+			productReference = 180B52DE1E8144E500C35A87 /* Vk_Video.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180B52D61E8144E500C35A87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = devil1001;
+				TargetAttributes = {
+					180B52DD1E8144E500C35A87 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GXXBVRREX8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 180B52D91E8144E500C35A87 /* Build configuration list for PBXProject "Vk_Video" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180B52D51E8144E500C35A87;
+			productRefGroup = 180B52DF1E8144E500C35A87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180B52DD1E8144E500C35A87 /* Vk_Video */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180B52DC1E8144E500C35A87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180B52F11E8144E500C35A87 /* LaunchScreen.storyboard in Resources */,
+				180B52EE1E8144E500C35A87 /* Assets.xcassets in Resources */,
+				180B52EC1E8144E500C35A87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B693524DCA595C9955C6969 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vk_Video/Pods-Vk_Video-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74DEC2CA3864AFB383C2944E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9FECD568F787AF7C03E7C4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vk_Video/Pods-Vk_Video-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180B52DA1E8144E500C35A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180B52E91E8144E500C35A87 /* ViewController.m in Sources */,
+				180B52FB1E8148B900C35A87 /* TableVC.m in Sources */,
+				180B52E61E8144E500C35A87 /* AppDelegate.m in Sources */,
+				180B52E31E8144E500C35A87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180B52EA1E8144E500C35A87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180B52EB1E8144E500C35A87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180B52EF1E8144E500C35A87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180B52F01E8144E500C35A87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180B52F31E8144E500C35A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180B52F41E8144E500C35A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180B52F61E8144E500C35A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7E6C6733D977A6D6D9C92A /* Pods-Vk_Video.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GXXBVRREX8;
+				INFOPLIST_FILE = Vk_Video/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Vk-Video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180B52F71E8144E500C35A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A5A07E4132967F2B33CEB7 /* Pods-Vk_Video.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GXXBVRREX8;
+				INFOPLIST_FILE = Vk_Video/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Vk-Video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180B52D91E8144E500C35A87 /* Build configuration list for PBXProject "Vk_Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180B52F31E8144E500C35A87 /* Debug */,
+				180B52F41E8144E500C35A87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180B52F51E8144E500C35A87 /* Build configuration list for PBXNativeTarget "Vk_Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180B52F61E8144E500C35A87 /* Debug */,
+				180B52F71E8144E500C35A87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180B52D61E8144E500C35A87 /* Project object */;
+}
